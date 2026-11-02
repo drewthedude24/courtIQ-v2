@@ -17,7 +17,7 @@ clean rewrite; the old CourtIQ repo is an untouched archive. No pipeline exists 
   a reproducible evaluation.
 
 ## Git Rules
-- Remote: public GitHub repo `courtIQ` (account drewthedude24). Branch: `main`.
+- Remote: public GitHub repo `courtIQ-v2` (account drewthedude24). Branch: `main`.
 - Commit AND push only when Andrew says "commit". Stage named files, never `git add .`.
 - Commit messages: short imperative summary, no Claude/Co-Authored-By lines.
 - Never force-push, reset, or delete branches without being told. Check `git status` first.
