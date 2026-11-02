@@ -2,7 +2,7 @@
 
 ## 7. New YOLO Model: Separate, Reproducible Workstream
 
-Training a better basketball detector is wanted. Preserve models/best.pt as the
+Training a better basketball detector is wanted. Preserve old-stuff/yolo_v1/best.pt as the
 immutable v1 baseline; never let a training output overwrite or silently replace it.
 A fresh code repository does NOT mean training neural-network weights from scratch.
 Explain the choice between fine-tuning a general pretrained detector and continuing
@@ -29,7 +29,7 @@ For each requested experiment:
 6. Agree on model size, training imgsz, initialization, epochs, hardware, and time/cost.
    Start with one bounded experiment, not a large search or an assumed latest model.
    A larger model or resolution may help but must earn its extra compute.
-7. Save each run under a unique training/runs/<experiment_id>/ directory (or another
+7. Save each run under a unique models/<experiment_id>/ directory (or another
    agreed artifact location). Preserve args, seed, dataset version/split, package
    versions, metrics, curves, checkpoints, and notes. Do not enable overwrite/reuse
    of an existing run directory casually. Never commit credentials or cloud tokens.

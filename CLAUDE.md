@@ -21,8 +21,8 @@ clean rewrite; the old CourtIQ repo is an untouched archive. No pipeline exists 
 - Commit AND push only when Andrew says "commit". Stage named files, never `git add .`.
 - Commit messages: short imperative summary, no Claude/Co-Authored-By lines.
 - Never force-push, reset, or delete branches without being told. Check `git status` first.
-- Videos in `videos/` go through Git LFS (`.gitattributes`). Keep total LFS small
-  (free quota: 1 GB storage and bandwidth). Never commit `.env`, secrets, or `.venv/`.
+- Videos in `videos/` go through Git LFS (`.gitattributes`). Keep LFS usage small;
+  check current GitHub account limits before uploading large collections. Never commit `.env`, secrets, or `.venv/`.
 
 ## Layout
 ```text
